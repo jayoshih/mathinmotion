@@ -1,0 +1,266 @@
+body{
+  font-family: 'Fjalla One','Passion One','Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  margin-left:-100px;
+  position: relative;
+}
+
+::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+   background-color:gray;
+}
+
+.truncate{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+  }
+
+.wordwrap {
+   white-space: pre-wrap;      /* CSS3 */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
+}
+
+/* Navbar styling */
+.navbar{
+  background-color:#0034A1;
+  border-bottom: 3px solid #FEAF3F;
+  position:fixed;
+}
+
+.navbar-header{
+    max-height:100px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+       top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+     top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+       position: relative;
+       transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+       top: 6px;
+       transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+       top: -6px;
+       transform: rotate(-45deg);
+}
+#sd_brand{
+  position:fixed;
+  z-index: 10000;
+  margin-left:20px;
+
+}
+
+#sd_logo{
+  margin:5px;
+   width:100px;
+   height:100px;
+   margin-top:-10px;
+   margin-left:-20px;
+   top:0em;
+  left:0em;
+}
+
+.btn-nav{
+  min-width:100px;
+  font-size:14pt;
+  color:white;
+  text-align:center;
+}
+
+.icon-bar{
+  background-color:white;
+}
+.navbar-toggle{
+  border:2px solid white;
+}
+
+.navbar-nav{
+  padding-left:120px;
+}
+
+
+
+
+/* Content styling */
+.wrapper{
+  padding-top:60px;
+  padding-left:130px;
+  padding-bottom:40px;
+  width:100vw;
+  height:100vh;
+  overflow:auto;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Fjalla One','Passion One','Roboto', sans-serif;
+}
+
+
+
+/* Home Styling */
+.red{
+  background-color: #C30035;
+  color:white;
+}
+
+.yellow{
+  background-color: #FEAF3F;
+  color:#383C46;
+}
+
+.colored-block{
+  padding:5px 20px;
+  width:80vw;
+  min-width:200px;
+  height:450px;
+  margin-bottom:20px;
+}
+
+.main-video{
+  margin-left:25%;
+}
+
+
+
+/* Lesson Styling */
+.lesson{
+  width:80vw;
+  min-width:200px;
+  background-color: white;
+  border:4px solid #C30035;
+  margin-bottom:20px;
+  color:#383C46;
+  padding-left:10px;
+  height:200px;
+}
+
+.lesson_title{
+  font-size:20pt;
+  font-weight:bold;
+  margin-left:120px;
+  margin-right:40px;
+  border-bottom:1px dotted gray;
+}
+
+.lesson_description{
+  font-size:15pt;
+  margin-left:120px;
+  height:120px;
+  overflow:auto;
+}
+
+.go_to_lesson{
+  height:100%;
+  font-size:20pt;
+  padding:10px;
+  border-radius:0;
+  padding-top:70px;
+  padding-bottom:27px;
+
+}
+
+.go_to_lesson:hover{
+  cursor:pointer;
+  background-color:#FEAF3F;
+  opacity: 0.5;
+}
+
+.go_to_lesson .glyphicon{
+  color:#0034A1;
+}
+
+.lesson_thumbnail{
+  width:100px;
+  height:100%;
+}
+
+.lesson_thumbnail img{
+  height:105px;
+  width:100px;
+  margin-top:25px;
+}
+
+
+/* Learn Styling */
+.btn-go{
+  background-color: #00BB27;
+  font-size:16pt;
+  color:white;
+}
+
+.peer_video{
+  width:20vw;
+  display:inline-block;
+  padding:10px;
+  margin-right:20px;
+}
+
+.peer_video:nth-child(even){
+  background-color:#C30035;
+  color:white;
+}
+.peer_video:nth-child(odd){
+  background-color: #FEAF3F;
+  color:#383C46;
+}
+
+.peer_video h4{
+  font-size:16pt;
+}
+.peer_video p{
+  font-size:13pt;
+}
+
+.peer_video_area{
+  padding-bottom:30px;
+}
+
+input[type=text]{
+  border:none;
+  outline:none;
+  border-bottom:3px solid #0034A1;
+  font-size:14pt;
+  padding:5px;
+  width:60vw;
+  margin:10px;
+}
+
+input[type=text]:hover, input[type=text]:active{
+  border-bottom:3px solid #FEAF3F;
+}
+
+#submit_video{
+  margin-top:20px;
+  margin-left:50%;
+}
+
+.practice_question{
+  font-size:14pt;
+}
+
+.solve_mystery{
+  margin-top:30px;
+  margin-left:50%;
+}

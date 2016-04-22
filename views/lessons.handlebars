@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+{{> head}}
+
+<body>
+	{{> navbar}}
+	<div class="wrapper container">
+		<h1>Learn about the Mysteries of the Race</h1>
+		<hr/>
+
+		{{#each videos}}
+			<div class="lesson" id="{{id}}">
+				<a href="/{{id}}/learn"class="pull-right go_to_lesson btn">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				</a>
+				<div class="lesson_thumbnail pull-left">
+					<img src="{{thumbnail}}" alt="No thumbnail found"/>
+				</div>
+				<h3 class="lesson_title truncate">{{title}}</h3>
+				<p class="lesson_description wordwrap">{{description}}</p>
+			</div>
+
+		{{else}}<em>No lessons to display.</em>
+		{{/each}}
+	</div>
+</body>
+</html>

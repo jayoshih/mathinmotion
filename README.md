@@ -1,5 +1,4 @@
-lab8
+Math in Motion
 ====
 
-Lab 8: analytics
-"# mathinmotion" 
+A website for teaching STEM to students

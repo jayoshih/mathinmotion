@@ -264,3 +264,11 @@ input[type=text]:hover, input[type=text]:active{
   margin-top:30px;
   margin-left:50%;
 }
+
+.lesson_subheading{
+  margin-left:50px;
+}
+
+.back_button{
+  font-size:10pt;
+}
